@@ -1,14 +1,15 @@
+package bench
 /**
  * Run in sbt as:
  * 
  *     > ++2.10.7
- *     > jmh:run example.ArrayBenchmark
+ *     > jmh:run bench.ArrayBenchmark
  *     > ++2.11.12
- *     > jmh:run example.ArrayBenchmark
+ *     > jmh:run bench.ArrayBenchmark
  *     > ++2.12.8
- *     > jmh:run example.ArrayBenchmark
+ *     > jmh:run bench.ArrayBenchmark
  *     > ++2.13.0
- *     > jmh:run example.ArrayBenchmark
+ *     > jmh:run bench.ArrayBenchmark
  */
 
 import java.util.concurrent.TimeUnit
